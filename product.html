@@ -1,0 +1,328 @@
+<!--DOCTYPE html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title==========================-->
+    <title>Product Detail's</title>
+    <!--==CSS============================-->
+    <link rel="stylesheet" href="style.css"/>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="images/favicon.png"/>
+    <!--==import-poppins-font============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Font-Awesome-for-icons=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <!--==top-bar==================================-->
+    <div class="nav-top-bar">
+        <span>20% Off To All Offer's And All Category, Make Your Order's Now.</span>
+    </div>
+    <!--==nav=======================================-->
+    <nav class="navigation">
+
+        <!--**logo********-->
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" />
+        </a>
+        <!--**menu-btn****-->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--**menu********-->
+        <ul class="menu">
+            <li><a href="product_page.html">Shop Now</a></li>
+            <li>
+                <a href="hot_products.html">Hot Product's</a>
+                <span class="nav-label">Hot Offer</span>
+            </li>
+            <li><a href="index.html#popular-product">Popular</a></li>
+            <li><a href="mailto:example@mail.com">Contact Us</a></li>
+        </ul>
+        <!--**nav-btns****-->
+        <div class="nav-btns">
+            <!--search-->
+            <input type="checkbox" id="nav-search-btn">
+            <label for="nav-search-btn" class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!--search-container-->
+                <form action="">
+                    <!--close-->
+                    <label for="nav-search-btn" class="nav-search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <!--box-->
+                    <div class="nav-search-box">
+                        <input type="text" placeholder="Search Product's" required>
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </label>
+            <!--user-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <!--cart-->
+            <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    
+    </nav><!--nav-end-->
+
+
+
+    <!--==Product-Details============================-->
+    <section id="product_details">
+
+        <!--**img*************-->
+        <div class="d-product-img">
+            <img alt="" src="images/p1.png"/>
+        </div>
+        <!--**text************-->
+        <div class="d-product-text">
+            <!--category-->
+            <span class="category">Electronic > Computer Accsories</span>
+            <!--title-->
+            <strong>Best Web Camera For PC With High Resolution</strong>
+            <!--rating-->
+            <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <span>200 Review's</span>
+            </span>
+            <!--details-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatibus sapiente quae quisquam ea, odio excepturi nemo! Ea vero architecto quod, inventore eum eius reprehenderit repellat voluptate expedita dolor perspiciatis!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas dicta doloribus porro expedita tempora</p>
+            <!--price-->
+            <span class="price">50$ <del>60$</del></span>
+            <!--quantity-->
+            <div class="quantity">
+                <span>Quantity: </span>
+                <input type="number" value="1"/>
+            </div>
+            <!--btn-->
+            <a href="#">Add To Cart</a>
+        </div>
+
+    </section><!--details-end-->
+
+
+    <!--==Relative-product's===========================-->
+    <section id="popular-product" class="relative-products">
+
+        <!--**heading********************-->
+        <div class="product-heading">
+            <h3>Relative Product's</h3>
+            <a>All</a>
+        </div>
+
+        <!--**container*****************-->
+        <div class="popular-product-container">
+
+            <!--**box1***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="#" class="product-img">
+                    <img alt="" src="images/p1.png">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="#" class="product-box-p-name">High Resolution Web Camera</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum quas totam provident ducimus deserunt voluptate quod ab? Esse quam aperiam illo ut eligendi laudantium quas magni cupiditate alias mollitia!</p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box2***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="#" class="product-img">
+                    <img alt="" src="images/p2.png">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="#" class="product-box-p-name">Wireless Mouse For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum quas totam provident ducimus deserunt voluptate quod ab? Esse quam aperiam illo ut eligendi laudantium quas magni cupiditate alias mollitia!</p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box3***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="#" class="product-img">
+                    <img alt="" src="images/p3.png">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="#" class="product-box-p-name">HP Touch Laptop</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum quas totam provident ducimus deserunt voluptate quod ab? Esse quam aperiam illo ut eligendi laudantium quas magni cupiditate alias mollitia!</p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box4***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="#" class="product-img">
+                    <img alt="" src="images/p4.png">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="#" class="product-box-p-name">Wireless HeadPhone For PC</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Computer Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum quas totam provident ducimus deserunt voluptate quod ab? Esse quam aperiam illo ut eligendi laudantium quas magni cupiditate alias mollitia!</p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                </div>
+            </div><!--box-end-->
+
+            <!--**box5***-->
+            <div class="product-box">
+                <!--img-->
+                <a href="#" class="product-img">
+                    <img alt="" src="images/p5.png">
+                </a>
+                <!--text-->
+                <div class="product-text">
+                    <!--title-->
+                    <a href="#" class="product-box-p-name">DSLR Camera</a>
+                    <!--category-->
+                    <span class="p-box-category">
+                        <a>Electronic</a> > <a>Camera Accsories</a>
+                    </span>
+                    <!--details-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum quas totam provident ducimus deserunt voluptate quod ab? Esse quam aperiam illo ut eligendi laudantium quas magni cupiditate alias mollitia!</p>
+                    <!--price-->
+                    <span class="p-box-price">$45</span>
+                    <del>$60</del>
+                </div>
+            </div><!--box-end-->
+
+        </div>
+
+    </section><!--==relative-end===-->
+
+
+
+    <!--==Footer=================================-->
+    <footer>
+
+        <!--**payment-method******************-->
+        <div class="footer-payment">
+            <!--logo's-->
+            <div class="footer-payment-logos">
+                <img alt="" src="images/master_card.png">
+                <img alt="" src="images/visa.png">
+                <img alt="" src="images/paypal.png">
+                <img alt="" src="images/ebay.png">
+            </div>
+            <!--text-->
+            <strong>Safe And Secure Payment Method's</strong>
+        </div>
+
+        <!--**container***********************-->
+        <div class="footer-container">
+
+            <!--**company**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="footer-logo">Logo</a>
+                <!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae.</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+
+            <!--**link-box**-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+
+            <!--**subscribe**-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <!--subscribe-box-->
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Example@gmail.com" required/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
+        </div><!--container-end-->
+
+        <!--**bottom********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Going To Internet</span>
+            <span class="copyright">&#169; Copyright 2022 - Going To Internet</span>
+        </div>
+    
+    </footer>
+    
+</body>
+</html>
